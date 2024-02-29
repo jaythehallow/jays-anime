@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .anime-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .anime-item {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .anime-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+        }
+
+        .anime-item h3 {
+            padding: 10px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Anime World</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Popular Anime</a>
+        <a href="#">Top Rated</a>
+        <a href="#">Genres</a>
+    </nav>
+    <section>
+        <h2>Popular Anime</h2>
+        <div class="anime-list">
+            <div class="anime-item">
+                <img src="tokyo ghoul.jpg" alt="tokyo ghoul">
+                <h3>tokyo ghoul</h3>
+            </div>
+            <div class="anime-item">
+                <img src="attack on titan.jpg" alt="attack on titan">
+                <h3>attack on titan</h3>
+            </div>
+            <div class="anime-item">
+                <img src="one peice.jpg" alt="one piece">
+                <h3>one piece</h3>
+                <div class="anime-item">
+                    <img src="psychopass2.jpg" alt="pycho pass">
+                    <h4>pycho pass</h4>
+            </div>
+            <!-- Add more anime items as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anime World</p>
+    </footer>
+</body>
+
+</html>
